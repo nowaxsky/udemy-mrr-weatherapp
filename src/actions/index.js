@@ -7,8 +7,10 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 
 export function fetchWeather(city) {
     const url = `${ROOT_URL}&q=${city},us`;
+    //request is a promise
     const request = axios.get(url);
 
+    //but middleware will unwrap promise for us, see '../reducers/weatherReducer'
     return {
         type: FETCH_WEATHER,
         payload: request
