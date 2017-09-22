@@ -14,8 +14,6 @@ class WeatherList extends React.Component {
         const humidities = cityData.list.map(weather => weather.main.humidity);
         const { lat, lon } = cityData.city.coord;
 
-        console.log(temps);
-
         return (
             <tr key={name}>
                 <td>{name}</td>
