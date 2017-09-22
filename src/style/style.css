@@ -10,3 +10,8 @@ td, th {
 svg {
     height: 150px;
 }
+
+td:nth-child(2), td:nth-child(2) > div {
+    height: 200px;
+    width: 250px;
+}
