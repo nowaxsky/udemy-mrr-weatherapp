@@ -13,3 +13,10 @@ inclusive of location, temperature, pressure and humidity.
 
 - You can try the following cities: Seattle, Tempa, New York...
 
+- You can clone this repository, install dependencies first, then fire this project. 
+(visit localhost:8080)
+
+```
+> npm install
+> npm run build
+```
